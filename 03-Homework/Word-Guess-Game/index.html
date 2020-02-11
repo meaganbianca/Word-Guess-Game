@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <!-- link the styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- link the reset -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- navigationbar --- i know roger told me not to make the nav in a row but it did not work the other way idk what else to dooooo-->
+  <div class="row bg-white" id="navigationbar">
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-4">
+        <ul class="nav">
+            <li class="nav-item">
+                <h3 class="nav-link disabled p-3 mb-2 bg-info text-white" href="#" tabindex="-1" aria-disabled="true">Meagan Bianca</h3>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-6">
+        <ul class="nav justify-content-end bg-white">
+            <li class="nav-item">
+                <a class="nav-link active p-3 mb-2 bg-white text-secondary" href="index.html">About</a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link p-3 mb-2 bg-white text-secondary" href="portfolio.html">Portfolio</a>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3 mb-2 bg-white text-secondary" href="contact.html">Contact</a>
+                    </li>
+        </ul>
+    </div>
+
+    <hr>
+    <div class="col-md-1"></div>
+
+  </div>
+
+  <!-- NOT SURE IF I WANT TO USE THIS PICTURE -->
+  <!-- <img src="assets/images/dahlia.png" class="img-fluid" alt="Responsive image"> -->
+
+    <!-- pick a theme ... -->
+    <h1>Write My Title Here</h1>
+
+    <!-- copied and pasted from fridge game -->
+    <h2>Press any key to get started!</h2> 
+      <div class="row mx-auto" id="keyboard">
+        <div id="buttons"></div>
+        <button id="start-over">start over</button>
+      </div>
+
+  <div class="row" id="the-word">
+    <div class="col-md-1"></div>
+    <h3>The Word Is: </h3>
+    <div id="show"></div>  
+  </div>
+
+  <div class="row" id="guesses">
+    <div class="col-md-1"></div>
+    <h3>Guesses: </h3>
+    <div id="display"></div>  
+  </div>
+
+  <div class="row" id=" wrong-guess">
+    <div class="col-md-1"></div>
+    <h3>Wrong Guesses: </h3>
+    <div id="wrong-guesses-left"></div>
+    <p></p>
+  </div>
+
+<!-- link javascript -->
+<!-- i have 2 .js files. CAN I LINK BOTH? YES. Need to label one as primary and the other as secondary -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,57 @@
+
+body {
+  background: white;
+  /* NOT SURE IF I WANT TO USE THIS PICTURE */
+  /* background: url(assets/images/roses.jpeg) no-repeat; */
+}
+
+.letter {
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  padding: 2px;
+  float: left;
+  margin: 2px;
+}
+
+.letter-button-color {
+  color: firebrick;
+}
+
+.fridge-color {
+  color: crimson;
+}
+
+/* .row {
+  margin-top: 50px;
+} */
+
+#display {
+  margin-top: 0px;
+  height: 200px;
+  width: 200px;
+  margin-left: 0px;
+}
+
+#buttons {
+  padding-top: 0px;
+  align-items: center;
+}
+
+#start-over {
+  margin-left: 20px;
+  font-size: 20px;
+  color: firebrick;
+  border-style: solid;
+  width: 100px;
+}
+
+#keyboard {
+  align-self: center;
+}
+
+#guesses {
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
